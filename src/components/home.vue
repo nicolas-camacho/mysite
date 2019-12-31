@@ -1,32 +1,39 @@
 <template>
-  <div class="container mx-auto m-40 rounded terminal p-6">
-    <img class="h-40 w-40 rounded-full mx-auto perfil p-3" src="../assets/img/perfil.jpeg">
-  </div>
+	<div class="container mx-auto m-20 rounded-xl terminal p-20 sm:flex items-center justify-center sm:relative">
+		<bar />
+		<img class="h-48 w-48 rounded-full perfil p-3 content-center" src="../assets/img/perfil.jpeg" />
+	</div>
 </template>
 
 <script>
+
+import bar from './bar'
+
 export default {
-  name: 'home'
-}
+	name: "home",
+	components: {
+		bar
+	}
+};
 </script>
 
 <style scoped>
 .terminal {
-  background-color: #eeeeee;
-  box-shadow:
-    -6px -9px 18px 0 rgba(255, 255, 255, 1),
-    6px 9px 18px 0 rgba(0, 0, 0, 0.3);
+	background-color: #e0e5ec;
+	box-shadow: -6px -6px 26px 0 #ffffff, 6px 6px 26px 0 #a3b1c6;
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .perfil {
-  box-shadow: 
-    -6px -9px 18px 0 rgba(255, 255, 255, 1),
-    6px 9px 18px 0 rgba(0, 0, 0, 0.3);
+	transition: all 1000ms ease-in-out;
 }
 
 .perfil:hover {
-  box-shadow:
-    inset -4px -4px 9px 0 rgba(255, 255, 255, 1),
-    inset 4px 4px 9px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: -6px -6px 26px 0 #ffffff, 6px 6px 26px 0 #a3b1c6;
+	transition: all 500ms;
+}
+
+.perfil:active {
+	box-shadow: inset -6px -6px 26px 0 #ffffff, inset 6px 6px 26px 0 #a3b1c6;
 }
 </style>
