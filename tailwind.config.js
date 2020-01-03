@@ -13,6 +13,7 @@ module.exports = {
         main: '#e0e5ec'
       },
       margin: {
+        xs: '2px',
         sm: '10px',
         md: '20px',
         lg: '30px',
