@@ -1,3 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Major+Mono+Display|Nova+Mono|Share+Tech+Mono&display=swap');

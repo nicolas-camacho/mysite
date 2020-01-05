@@ -18,9 +18,32 @@ module.exports = {
         md: '20px',
         lg: '30px',
         xl: '100px'
+      },
+      fontFamily: {
+        firacode: ['Fira Code', 'monospace'],
+        major: ['Major Mono Display', 'monospace'],
+        prime: ['Courier Prime', 'monospace'],
+        tech: ['Share Tech Mono', 'monospace'],
+        nova: ['Nova Mono', 'monospace']
       }
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.transition': {
+          transition: 'all 1000ms ease-in-out'
+        },
+        '.transition-slow': {
+          transition: 'all 2000ms ease-in-out'
+        },
+        '.transition-fast': {
+          transition: 'all 500ms ease-in-out'
+        }
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    }
+  ]
 }
