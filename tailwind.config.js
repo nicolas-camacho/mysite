@@ -7,7 +7,8 @@ module.exports = {
       boxShadow: {
         neu: '-6px -6px 26px 0 #ffffff, 6px 6px 26px 0 #a3b1c6',
         neu_in: 'inset -6px -6px 26px 0 #ffffff, inset 6px 6px 26px 0 #a3b1c6',
-        plain: '0 0 0 0'
+        plain: '0 0 0 0',
+        other: '9px 9px 26px 0 #a3b1c6'
       },
       backgroundColor: {
         main: '#e0e5ec'
@@ -25,12 +26,16 @@ module.exports = {
         prime: ['Courier Prime', 'monospace'],
         tech: ['Share Tech Mono', 'monospace'],
         nova: ['Nova Mono', 'monospace']
+      },
+      height: {
+        total: '600px',
+        half: '300px'
       }
     }
   },
   variants: {},
   plugins: [
-    function({ addUtilities }) {
+    function ({ addUtilities }) {
       const newUtilities = {
         '.transition': {
           transition: 'all 1000ms ease-in-out'
