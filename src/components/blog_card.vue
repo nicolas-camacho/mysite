@@ -1,10 +1,10 @@
 <template>
-  <div></div>
+  <div class="m-md rounded-xl shadow-neu bg-main w-full"></div>
 </template>
 
 <script>
 export default {
-  name: "blog_card"
+  name: "blogCard"
 };
 </script>
 

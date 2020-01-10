@@ -28,8 +28,11 @@ module.exports = {
         nova: ['Nova Mono', 'monospace']
       },
       height: {
-        total: '600px',
-        half: '300px'
+        total: '650px',
+        half: '290px',
+        terminal: '400px',
+        adjust: '280px',
+        small: '200px'
       }
     }
   },

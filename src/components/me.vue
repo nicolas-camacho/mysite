@@ -1,11 +1,9 @@
 <template>
-  <div
-    class="terminal m-md lg:h-total rounded-xl shadow-neu bg-main border-neu py-3 lg:p-8 md:px-5 lg:flex"
-  >
-    <div class="w-5/5 lg:w-1/5 lg:h-half flex justify-center lg:justify-start lg:m-sm">
+  <div class="m-md rounded-xl shadow-neu bg-main py-3 md:px-5 lg:flex w-full">
+    <div class="w-5/5 lg:w-1/5 lg:h-half flex justify-center lg:justify-start">
       <bar />
     </div>
-    <div class="w-5/5 flex flex-wrap lg:w-4/5 mt-10 lg:m-sm">
+    <div class="w-5/5 flex flex-wrap lg:w-4/5 mt-10 lg:m-0">
       <div class="w-full flex justify-center items-end">
         <img
           class="h-48 w-48 rounded-full perfil transition hover:transition-fast hover:shadow-neu p-3"
@@ -43,11 +41,7 @@ export default {
 };
 </script>
 
-<style>
-.terminal {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
+<style scoped>
 .perfil:active {
   @apply shadow-neu_in;
 }
