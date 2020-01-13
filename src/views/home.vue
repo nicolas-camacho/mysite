@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import me from "./me";
-import blogCard from "./blog_card";
+import me from "../components/me";
+import blogCard from "../components/blog_card";
 
 export default {
   name: "home",

@@ -20,12 +20,7 @@
 
 <script>
 export default {
-  name: "bar",
-  data() {
-    return {
-      intern: true
-    };
-  }
+  name: "bar"
 };
 </script>
 
