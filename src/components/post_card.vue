@@ -1,5 +1,5 @@
 <template>
-  <div class="m-md rounded-xl shadow-neu_dr bg-main flex flex-wrap">
+  <div class="m-md rounded-xl shadow-neu_nr bg-main flex flex-wrap">
     <slot></slot>
   </div>
 </template>

@@ -8,8 +8,8 @@
       <blogCard>
         <section v-if="this.$store.getters.getPosts && this.$store.getters.getPosts.length > 0">
           <postCard v-for="post in this.$store.getters.getPosts" :key="post.id" class="p-6">
-            <h2 class="text-xl font-firacode font-semibold">{{post.title}}</h2>
-            <div class="font-firacode w-full">{{post.content}}</div>
+            <h2 class="text-xl font-firacode font-semibold text-white">{{post.title}}</h2>
+            <div class="font-firacode w-full text-white">{{post.content}}</div>
           </postCard>
         </section>
         <h3 v-else>Empty</h3>

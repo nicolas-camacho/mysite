@@ -11,9 +11,9 @@
         />
       </div>
       <div class="w-full text-center">
-        <h2 class="text-xl font-firacode font-semibold">Nicolas Camacho</h2>
-        <p class="font-firacode text-gray-500">Web Developer</p>
-        <p class="font-firacode text-gray-600">Software Engenieering Student</p>
+        <h2 class="text-xl font-firacode text-white font-semibold">Nicolas Camacho</h2>
+        <p class="font-firacode text-gray-200">Web Developer</p>
+        <p class="font-firacode text-purple-500">Software Engenieering Student</p>
         <div class="px-6 py-4">
           <span
             class="interna-front inline-block bg-gray-200 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 m-1 lg:mr-8 font-firacode"

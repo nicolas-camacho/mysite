@@ -5,14 +5,14 @@ module.exports = {
         xl: '30px'
       },
       boxShadow: {
-        neu: ' -9px -9px 26px #ffffff, 6px 6px 26px #bec3c9',
-        neu_in: 'inset -6px -6px 26px 0 #ffffff, inset 6px 6px 20px 0 #bec3c9',
-        neu_dr: '5px 5px 10px #bec3c9, -5px -5px 10px #ffffff',
+        neu: '20px 20px 40px #333131, -20px -20px 40px #535151',
+        neu_in: 'inset 20px 20px 40px #333131, inset -20px -20px 40px #535151',
+        neu_nr: '5px 5px 10px #333131, -5px -5px 10px #535151',
         plain: '0 0 0 0',
         other: '9px 9px 26px 0 #a3b1c6'
       },
       backgroundColor: {
-        main: '#e0e5ec',
+        main: '#434141',
         darker_main: '#d1d8e3'
       },
       margin: {
