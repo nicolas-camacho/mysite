@@ -6,8 +6,8 @@
     </div>
     <div class="w-full w-2/2 md:w-1/2 my-1 px-1 flex flex-wrap">
       <blogCard>
-        <section v-if="this.$store.getters.getPosts && this.$store.getters.getPosts.length > 0">
-          <postCard v-for="post in this.$store.getters.getPosts" :key="post.id" class="p-6">
+        <section v-if="posts && posts.length > 0">
+          <postCard v-for="post in posts" :key="post.id" class="p-6">
             <h2 class="text-xl font-firacode font-semibold text-purple-600">{{post.title}}</h2>
             <div class="font-firacode w-full text-white">{{post.content}}</div>
           </postCard>
@@ -22,22 +22,18 @@
 import me from "../components/me";
 import blogCard from "../components/blog_card";
 import postCard from "../components/post_card";
+import { mapState } from "vuex";
 
 export default {
   name: "home",
-  beforeCreate() {
-    this.$store.dispatch("setPosts");
-  },
-  data() {
-    return {
-      posts: "",
-      errors: ""
-    };
-  },
   components: {
     me,
     blogCard,
     postCard
+  },
+  computed: mapState(['posts']),
+  beforeCreate() {
+    this.$store.dispatch('bindPosts')
   }
 };
 </script>
