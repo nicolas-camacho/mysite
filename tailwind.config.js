@@ -5,14 +5,13 @@ module.exports = {
         xl: '30px'
       },
       boxShadow: {
-        neu: '20px 20px 40px #333131, -20px -20px 40px #535151',
-        neu_in: 'inset 20px 20px 40px #333131, inset -20px -20px 40px #535151',
-        neu_nr: '5px 5px 10px #333131, -5px -5px 10px #535151',
-        plain: '0 0 0 0',
-        other: '9px 9px 26px 0 #a3b1c6'
+        neu: '26px 26px 48px #1a1b1d, -26px -26px 48px #34353b',
+        neu_in: 'inset 10px 10px 20px #1a1b1d, inset -10px -10px 20px #34353b',
+        neu_nr: '3px 3px 6px #1a1b1d, -3px -3px 6px #34353b',
+        plain: '0 0 0 0'
       },
       backgroundColor: {
-        main: '#434141',
+        main: '#27282C',
         darker_main: '#d1d8e3'
       },
       margin: {
@@ -52,7 +51,7 @@ module.exports = {
           transition: 'all 500ms ease-in-out'
         },
         '.bg-main-gr': {
-          background: 'linear-gradient(145deg, #f0f5fd, #caced4)'
+          background: 'linear-gradient(145deg, #2a2b2f, #232428)'
         }
       }
 

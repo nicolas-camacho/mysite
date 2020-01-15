@@ -13,6 +13,6 @@ export default {
 
 <style>
 html {
-  @apply bg-main;
+  @apply bg-main-gr;
 }
 </style>

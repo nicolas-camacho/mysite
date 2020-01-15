@@ -8,7 +8,7 @@
       <blogCard>
         <section v-if="this.$store.getters.getPosts && this.$store.getters.getPosts.length > 0">
           <postCard v-for="post in this.$store.getters.getPosts" :key="post.id" class="p-6">
-            <h2 class="text-xl font-firacode font-semibold text-white">{{post.title}}</h2>
+            <h2 class="text-xl font-firacode font-semibold text-purple-600">{{post.title}}</h2>
             <div class="font-firacode w-full text-white">{{post.content}}</div>
           </postCard>
         </section>

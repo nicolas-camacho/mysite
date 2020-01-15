@@ -1,5 +1,5 @@
 <template>
-  <div class="m-md rounded-xl shadow-neu bg-main py-3 md:px-5 lg:flex w-full">
+  <div class="m-md rounded-xl shadow-neu bg-main-gr py-3 md:px-5 lg:flex w-full">
     <div class="w-5/5 lg:w-1/5 lg:h-half flex justify-center lg:justify-start">
       <bar />
     </div>
@@ -16,13 +16,13 @@
         <p class="font-firacode text-purple-500">Software Engenieering Student</p>
         <div class="px-6 py-4">
           <span
-            class="interna-front inline-block bg-gray-200 text-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 m-1 lg:mr-8 font-firacode"
+            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white m-1 lg:mr-8 font-firacode"
           >frontend</span>
           <span
-            class="interna-vue inline-block bg-green-500 rounded-full px-3 py-1 text-sm text-gray-900 font-semibold m-1 lg:mr-8 font-firacode"
+            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm text-white font-semibold m-1 lg:mr-8 font-firacode"
           >vue</span>
           <span
-            class="interna-tail inline-block bg-teal-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 font-firacode m-1"
+            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white font-firacode m-1"
           >tailwind</span>
         </div>
       </div>
@@ -46,8 +46,8 @@ export default {
   @apply shadow-neu_in;
 }
 
-.interna-front {
-  box-shadow: inset 2px 2px 2px 0 #cdd0d3;
+.interna {
+  box-shadow: inset 3px 3px 4px 0 #493279;
 }
 
 .interna-vue {
