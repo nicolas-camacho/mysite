@@ -7,6 +7,7 @@ module.exports = {
       boxShadow: {
         neu: '26px 26px 48px #1a1b1d, -26px -26px 48px #34353b',
         neu_in: 'inset 10px 10px 20px #1a1b1d, inset -10px -10px 20px #34353b',
+        neu_in_nr: 'inset 5px 5px 10px #1a1b1d, inset -5px -5px 10px #34353b',
         neu_nr: '3px 3px 6px #1a1b1d, -3px -3px 6px #34353b',
         plain: '0 0 0 0'
       },
@@ -33,7 +34,7 @@ module.exports = {
         half: '290px',
         terminal: '400px',
         adjust: '280px',
-        small: '200px'
+        small: '180px'
       }
     }
   },
