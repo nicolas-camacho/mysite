@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     extend: {
       borderRadius: {
-        xl: '30px'
+        xl: '25px'
       },
       boxShadow: {
         neu: '26px 26px 48px #1a1b1d, -26px -26px 48px #34353b',
@@ -30,7 +30,6 @@ module.exports = {
         nova: ['Nova Mono', 'monospace']
       },
       height: {
-        total: '650px',
         half: '290px',
         terminal: '400px',
         adjust: '280px',

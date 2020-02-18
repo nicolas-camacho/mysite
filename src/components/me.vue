@@ -1,5 +1,5 @@
 <template>
-  <div class="m-md rounded-xl shadow-neu bg-main-gr py-3 md:px-5 lg:flex w-full">
+  <div class="m-md rounded-xl shadow-neu bg-main-gr py-3 md:px-5 lg:flex w-full h-auto">
     <div class="w-5/5 lg:w-1/5 lg:h-half flex justify-center lg:justify-start">
       <bar />
     </div>

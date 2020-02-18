@@ -1,10 +1,12 @@
 <template>
-  <div class="flex flex-wrap">
-    <div class="w-full w-2/2 md:w-1/2 my-px px-px flex flex-wrap">
-      <me />
-      <blogCard class="h-small w-full" />
+  <div class="flex flex-wrap min-h-screen max-h-screen">
+    <div class="w-2/2 md:w-1/2 flex flex-wrap">
+      <me class="h-auto" />
+      <blogCard class="w-full">
+        <div class="p-2"></div>
+      </blogCard>
     </div>
-    <div class="w-full w-2/2 md:w-1/2 my-px px-px flex flex-wrap">
+    <div class="w-2/2 md:w-1/2 flex">
       <blogCard>
         <section v-if="posts && posts.length > 0">
           <div v-for="post in posts" :key="post.id" class="p-1 shadow-neu_in_nr m-sm rounded-xl">
