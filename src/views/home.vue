@@ -13,7 +13,7 @@
               <div class="font-firacode w-full text-white">{{post.content}}</div>
               <span
                 class="interna inline-block bg-gray-600 rounded-full px-3 py-1 text-xs text-white mt-4 font-firacode"
-              >{{post.createdAt.toDate().getFullYear()}}-{{ post.createdAt.toDate().getMonth() }}-{{ post.createdAt.toDate().getDate() }}</span>
+              >{{post.createdAt.toDate().toDateString()}}</span>
             </postCard>
           </div>
         </section>
