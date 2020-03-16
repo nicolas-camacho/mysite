@@ -1,6 +1,6 @@
 <template>
   <blogCard class="w-full">
-    <div class="p-8 flex justify-between w-full flex-wrap items-center">
+    <div class="p-8 flex justify-center md:justify-between w-full flex-wrap items-center">
       <div class="mt-4">
         <a>
           <img src="../assets/img/Javascript.svg" alt="vueicon" width="64px" height="64px" />
