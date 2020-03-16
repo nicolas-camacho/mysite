@@ -2,9 +2,7 @@
   <div class="flex flex-wrap min-h-screen max-h-screen">
     <div class="w-2/2 md:w-1/2 flex flex-wrap">
       <me class="h-auto" />
-      <blogCard class="w-full">
-        <div class="p-2"></div>
-      </blogCard>
+      <skills />
     </div>
     <div class="w-2/2 md:w-1/2 flex">
       <blogCard>
@@ -29,6 +27,7 @@
 import me from "../components/me";
 import blogCard from "../components/blog_card";
 import postCard from "../components/post_card";
+import skills from "../components/skills";
 import { mapState } from "vuex";
 
 export default {
@@ -36,7 +35,8 @@ export default {
   components: {
     me,
     blogCard,
-    postCard
+    postCard,
+    skills
   },
   computed: mapState(["posts"]),
   beforeCreate() {
@@ -46,4 +46,11 @@ export default {
 </script>
 
 <style scoped>
+#icon-gradiant {
+  --color-stop-2: #020024;
+  --color-stop-1: #6b0979;
+}
+svg:hover {
+  fill: url(#icon-gradiant) #020024;
+}
 </style>

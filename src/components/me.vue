@@ -13,19 +13,10 @@
       </div>
       <div class="w-full text-center">
         <h2 class="text-xl font-firacode text-white font-semibold">Nicolas Camacho</h2>
-        <p class="font-firacode text-gray-200">Web Developer</p>
-        <p class="font-firacode text-gray-600">Software Engenieering Student</p>
-        <div class="px-6 py-4">
-          <span
-            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white m-1 lg:mr-8 font-firacode"
-          >frontend</span>
-          <span
-            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm text-white font-semibold m-1 lg:mr-8 font-firacode"
-          >vue</span>
-          <span
-            class="interna inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white font-firacode m-1"
-          >tailwind</span>
-        </div>
+        <p class="font-firacode text-gray-200">Front-End Developer</p>
+        <p
+          class="font-firacode text-gray-600"
+        >I'm a person that is in love with the development world.</p>
       </div>
     </div>
   </div>
