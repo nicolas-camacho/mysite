@@ -1,35 +1,39 @@
 <template>
-  <blogCard class="w-full">
-    <div class="p-8 flex justify-center md:justify-between w-full flex-wrap items-center">
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/Javascript.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
+  <blogCard class="md:p-2 p-8 w-full">
+    <div class="w-full flex flex-wrap justify-center">
+      <div class="grid grid-cols-3 w-full">
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/Javascript.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/vuejs.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/React.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
       </div>
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/vuejs.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
-      </div>
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/React.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
-      </div>
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/css.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
-      </div>
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/jest.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
-      </div>
-      <div class="mt-4">
-        <a>
-          <img src="../assets/img/node.svg" alt="vueicon" width="64px" height="64px" />
-        </a>
+      <div class="grid grid-cols-3 w-full mt-4 md:mt-0">
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/css.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/jest.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
+        <div class="flex justify-center items-center">
+          <a>
+            <img src="../assets/img/node.svg" alt="vueicon" width="64px" height="64px" />
+          </a>
+        </div>
       </div>
     </div>
   </blogCard>
